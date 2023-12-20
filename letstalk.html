@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LET'S TALK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dynalight&family=Montserrat:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/index.css" />
+  </head>
+  <body
+    class="bg-[radial-gradient(77.39%_77.35%_at_51.19%_22.66%,#2C2C2C_0%,#060606_100%)] font-mont"
+  >
+    <!-- Navigation begins  -->
+    <nav class="flex flex-row items-center justify-between px-16 py-10">
+      <div class="">
+        <img src="./src/assets/jhoi.png" width="81" height="28" alt="Jhoi" />
+      </div>
+      <div class="flex flex-row text-xs tracking-widest text-white">
+        <div class="self-center font-mont">
+          <ul class="inline-flex space-x-12">
+            <li><a class="text-white no-underline" href="/">HOME</a></li>
+            <li><a class="text-white no-underline" href="">PROJECTS</a></li>
+            <li>
+              <a class="text-white no-underline" href="resume.html">RESUME</a>
+            </li>
+          </ul>
+        </div>
+        <div class="ml-16">
+          <a
+            class="my-auto self-center rounded-lg border border-amber-500 px-6 py-3 text-white no-underline"
+          >
+            LET'S TALK
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navigation  -->
+    <div
+      class="flex flex-row justify-center py-10 text-3xl font-bold text-amber-400"
+    >
+      <h2>
+        I would love to hear about your<br />
+        next project. Please get in touch
+      </h2>
+    </div>
+    <!-- Contact form  -->
+    <div class="m-auto w-2/3 bg-gray-950 p-8 shadow-md">
+      <form>
+        <div class="mb-6">
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Your name"
+            class="w-full rounded border border-gray-300 bg-transparent p-4 text-gray-300"
+          />
+        </div>
+
+        <div class="mb-6">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            class="w-full rounded border border-gray-300 bg-transparent p-4 text-gray-300"
+          />
+        </div>
+
+        <div class="mb-6">
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Type a message..."
+            rows="6"
+            class="w-full rounded border border-gray-300 bg-transparent p-2 text-gray-300"
+          ></textarea>
+        </div>
+      </form>
+    </div>
+    <!-- end contact form -->
+    <div class="flex flex-row justify-center font-medium text-white">
+      <div>
+        <button
+          class="mt-6 rounded-md bg-amber-400 px-8 py-4 text-[12px] tracking-wider text-gray-900"
+        >
+          SEND MESSAGE
+        </button>
+      </div>
+    </div>
+    <!-- Footer begins  -->
+    <footer class="px-10 pt-32 text-white">
+      <div class="flex flex-row justify-between">
+        <h2 class="py-7 text-4xl font-bold">
+          Let’s work together on <br />
+          your next project
+        </h2>
+        <img
+          src="./src/assets/jhoi.png"
+          class="min-w-[100px] max-w-7xl"
+          width="150"
+          alt="Jhoi"
+        />
+      </div>
+      <div class="h-1 w-20 bg-amber-400"></div>
+      <div class="py-5">
+        <p>
+          <a class="text-white no-underline" href="tel:+234 808 292 7636"
+            >+234 808 292 7636</a
+          >
+        </p>
+        <p>
+          <a
+            class="text-white no-underline"
+            href="mailto:joyanyaele08@gmail.com"
+            >joyanyaele08@gmail.com</a
+          >
+        </p>
+      </div>
+      <div class="flex flex-row space-x-3 py-3 pb-10">
+        <a href="https://www.instagram.com/jhoi_anyaele/">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 36 36"
+            fill="none"
+          >
+            <path
+              d="M17.8534 20.8762C19.6315 20.8762 21.0729 19.4678 21.0729 17.7305C21.0729 15.9931 19.6315 14.5847 17.8534 14.5847C16.0754 14.5847 14.634 15.9931 14.634 17.7305C14.634 19.4678 16.0754 20.8762 17.8534 20.8762Z"
+              fill="white"
+            />
+            <path
+              d="M21.8778 10.009H13.8291C12.6584 10.009 11.634 10.3665 10.9755 11.01C10.317 11.6534 9.95111 12.6543 9.95111 13.7982V21.6626C9.95111 22.8065 10.317 23.8075 11.0487 24.5224C11.7804 25.1659 12.7316 25.5233 13.9023 25.5233H21.8778C23.0485 25.5233 24.0729 25.1659 24.7314 24.5224C25.4631 23.879 25.8289 22.878 25.8289 21.7341V13.8697C25.8289 12.7258 25.4631 11.7964 24.8046 11.0815C24.0729 10.3665 23.1217 10.009 21.8778 10.009ZM17.8534 22.5921C15.073 22.5921 12.8779 20.3757 12.8779 17.7304C12.8779 15.0136 15.1462 12.8688 17.8534 12.8688C20.5607 12.8688 22.9022 15.0136 22.9022 17.7304C22.9022 20.4472 20.6339 22.5921 17.8534 22.5921ZM23.0485 13.7982C22.39 13.7982 21.8778 13.2978 21.8778 12.6543C21.8778 12.0109 22.39 11.5104 23.0485 11.5104C23.707 11.5104 24.2192 12.0109 24.2192 12.6543C24.2192 13.2978 23.707 13.7982 23.0485 13.7982Z"
+              fill="white"
+            />
+            <path
+              d="M17.9998 0C8.04867 0 0 7.86439 0 17.5876C0 27.3109 8.04867 35.1753 17.9998 35.1753C27.9508 35.1753 35.9995 27.3109 35.9995 17.5876C36.0727 7.86439 27.9508 0 17.9998 0ZM27.585 21.7343C27.585 23.3787 26.9996 24.8086 25.9753 25.8095C24.9509 26.8104 23.4875 27.3109 21.8777 27.3109H13.9022C12.2925 27.3109 10.8291 26.8104 9.80474 25.8095C8.7072 24.8086 8.19501 23.3787 8.19501 21.7343V13.8699C8.19501 10.5812 10.4633 8.29336 13.9022 8.29336H21.9509C23.6338 8.29336 25.024 8.86532 26.0484 9.86624C27.0728 10.8672 27.585 12.2256 27.585 13.8699V21.7343V21.7343Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/joyanyaele/">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 31 31"
+            fill="none"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M27.2126 0C29.3029 0 31 1.69713 31 3.78745V27.2126C31 29.3029 29.3029 31 27.2126 31H3.78745C1.69713 31 0 29.3029 0 27.2126V3.78745C0 1.69713 1.69707 0 3.78745 0H27.2126V0ZM9.71541 25.6282V11.9617H5.17197V25.6282H9.71541ZM26.0957 25.6282V17.791C26.0957 13.5931 23.8544 11.6403 20.8656 11.6403C18.4556 11.6403 17.376 12.9657 16.7716 13.8967V11.9617H12.2293C12.2896 13.2441 12.2293 25.6282 12.2293 25.6282H16.7715V17.9959C16.7715 17.5873 16.801 17.179 16.9213 16.8869C17.2491 16.0711 17.9971 15.2259 19.252 15.2259C20.895 15.2259 21.5532 16.4796 21.5532 18.316V25.6282H26.0957V25.6282ZM7.47439 5.37184C5.91991 5.37184 4.9043 6.39381 4.9043 7.73329C4.9043 9.04461 5.88903 10.0947 7.41427 10.0947H7.44357C9.02778 10.0947 10.0139 9.04461 10.0139 7.73329C9.98454 6.39569 9.03057 5.37475 7.47439 5.37184V5.37184Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+      </div>
+    </footer>
+    <!-- footer ends here  -->
+  </body>
+</html>
